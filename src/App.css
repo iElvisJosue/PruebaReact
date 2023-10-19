@@ -1,0 +1,21 @@
+:root {
+  --Pink: #f782fe;
+  --Blue: #7eb6ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.Main {
+  position: relative;
+  height: 100vh;
+  background-image: linear-gradient(to right, var(--Blue), var(--Pink));
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

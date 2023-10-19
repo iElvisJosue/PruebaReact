@@ -1,0 +1,51 @@
+.Main__Login {
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.Main__Login--Icon {
+  width: 100px;
+  height: 100px;
+}
+.Main__Login--Title {
+  text-align: center;
+  color: #0c0c0cb7;
+}
+.Main__Login--Content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Main__Login--Content--Input {
+  height: 60px;
+  padding: 0 10px;
+  outline: none;
+  border: 2px solid #0c0c0c65;
+}
+.Main__Login--Content--Input::placeholder {
+  color: #0c0c0c65;
+}
+.Main__Login--Content--Error {
+  color: var(--Pink);
+  font-size: 12px;
+}
+.Main__Login--Button {
+  width: 100%;
+  height: 60px;
+  border: 2px solid var(--Pink);
+  background-color: var(--Pink);
+  color: white;
+  cursor: pointer;
+
+  transition: 0.3s ease-in-out all;
+}
+.Main__Login--Button:hover {
+  background-color: transparent;
+  color: var(--Pink);
+}
