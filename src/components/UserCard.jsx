@@ -9,7 +9,7 @@ export default function UserCard({
 }) {
   const [isFollowing, setIsFollowing] = useState(false);
 
-  const textButton = isFollowing ? "+ Seguir" : "- Eliminar";
+  const textButton = isFollowing ? "- Eliminar" : "+ Seguir";
 
   const classCard = isAdminUser
     ? "Main__Home--Card Admin"
